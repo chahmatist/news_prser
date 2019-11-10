@@ -1,4 +1,4 @@
-# news_prser
+# news_scraping
 python parser news
 
 
