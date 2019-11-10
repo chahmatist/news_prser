@@ -1,5 +1,5 @@
 # news_scraping
-python parser news
+install
 
 
 pip install -r requirements.txt 
