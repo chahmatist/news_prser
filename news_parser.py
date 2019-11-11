@@ -44,8 +44,7 @@ def gen_html(data):
     env = Environment(loader=FileSystemLoader(templates_dir))
     template = env.get_template('base.html')
 
-    filename = os.path.join(root, 'html', 'index.html')
-    with open(filename, 'w') as fh:
+    with open('index.html', 'w') as fh:
         fh.write(template.render(
             posts=enumerate(data),
         ))
